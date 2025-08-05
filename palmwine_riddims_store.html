@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palmwine Riddims | Afrobeats Beat Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #F5F3EB;
+      color: #2C1B10;
+    }
+
+    header {
+      background: linear-gradient(to right, #A0522D, #8B4513);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #DEB887;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2C1B10;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1619905247396-2ab400958afe') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+      font-size: 2em;
+    }
+
+    .beats-section {
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .beat-card {
+      background-color: #FFF8DC;
+      border: 1px solid #D2B48C;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .beat-card h3 {
+      margin: 0 0 10px;
+    }
+
+    .beat-card audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #8B4513;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Palmwine Riddims</h1>
+    <p>Authentic Afrobeats for Your Next Hit</p>
+  </header>
+
+  <nav>
+    <a href="#beats">Beats</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <div>Feel the Rhythm of Ghana</div>
+  </div>
+
+  <section id="beats" class="beats-section">
+    <div class="beat-card">
+      <h3>Accra Vibes</h3>
+      <p>Produced by KojoBeatz</p>
+      <audio controls>
+        <source src="Jamestown.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="beat-card">
+      <h3>Highlife Sunrise</h3>
+      <p>Produced by NanaTone</p>
+      <audio controls>
+        <source src="Osu.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="beat-card">
+      <h3>Volta Groove</h3>
+      <p>Produced by EboSound</p>
+      <audio controls>
+        <source src="EastLegon.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </section>
+
+  <section id="about" style="padding: 40px 20px; background-color: #FAEBD7;">
+    <h2>About Us</h2>
+    <p>
+      Palmwine Riddims is a Ghanaian-based beat store bringing you the freshest Afrobeats inspired by the streets of Accra,
+      the beaches of Ada, and the energy of Kumasi. Whether you're an artist, content creator, or filmmaker, our beats are
+      designed to infuse your project with Afrocentric soul.
+    </p>
+  </section>
+
+  <section id="contact" style="padding: 40px 20px;">
+    <h2>Contact</h2>
+    <p>Email: info@palmwineriddims.com</p>
+    <p>Instagram: @palmwineriddims</p>
+    <p>Phone: +233 50 000 0000</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Palmwine Riddims. All rights reserved.
+  </footer>
+
+</body>
+</html>
